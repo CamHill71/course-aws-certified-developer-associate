@@ -8,7 +8,8 @@
 					document.getElementById("my-demo").innerHTML = this.responseText;
 					}
 				};
-				xhttp.open("GET", "MY_API_GATEWAY_ENDPOINT_URL", true);
+				<!-- MY_API_GATEWAY_ENDPOINT_URL -->
+				xhttp.open("GET", "https://q9x9q6fnlk.execute-api.us-east-1.amazonaws.com/default/myLambdaFunction", true);
 				xhttp.send();
 
 			}

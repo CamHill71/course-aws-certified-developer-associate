@@ -13,7 +13,7 @@ Resources:
     Type: 'AWS::EC2::Instance'
     Properties:
       InstanceType: t2.micro
-      ImageId: ami-0bdb1d6c15a40392c
+      ImageId: ami-0f6ad051716c81af1
       KeyName: !Ref KeyName
       SecurityGroups:
        - Ref: InstanceSecurityGroup
